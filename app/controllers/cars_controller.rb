@@ -28,7 +28,7 @@ class CarsController < ApplicationController
         format.html { redirect_to car_url(@car), notice: "Car was successfully created." }
         format.json { render :show, status: :created, location: @car }
       else
-        format.html { render :new, status: :unprocessable_entity }
+        format.html { render :nuevo, status: :unprocessable_entity }
         format.json { render json: @car.errors, status: :unprocessable_entity }
       end
     end
