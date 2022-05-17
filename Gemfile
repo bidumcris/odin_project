@@ -13,7 +13,7 @@ ruby '>= 2.5', '< 3.1'
 gem 'cowsay'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.5'
+gem 'rails', '5.1.2'
 # Use sqlite3 as the database for Active Record
 
 # Use Puma as the app server
